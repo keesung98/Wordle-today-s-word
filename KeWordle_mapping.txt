@@ -1,0 +1,593 @@
+# compiler: R8
+# compiler_version: 3.3.83
+# min_api: 22
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.0"}
+# pg_map_id: 14d782d
+# pg_map_hash: SHA-256 14d782ddb8b12fccaf8e5d768572965ae4fca809a0ee8d834bef7baa9533cf2e
+android.app.GameManager -> android.app.GameManager:
+# {"id":"com.android.tools.r8.synthesized"}
+    void <clinit>() -> <clinit>
+      # {"id":"com.android.tools.r8.synthesized"}
+    int getGameMode() -> getGameMode
+      # {"id":"com.android.tools.r8.synthesized"}
+    void setGameState(android.app.GameState) -> setGameState
+      # {"id":"com.android.tools.r8.synthesized"}
+android.app.NotificationChannel -> android.app.NotificationChannel:
+# {"id":"com.android.tools.r8.synthesized"}
+    void <clinit>() -> <clinit>
+      # {"id":"com.android.tools.r8.synthesized"}
+    void <init>(java.lang.String,java.lang.CharSequence,int) -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    boolean canBypassDnd() -> canBypassDnd
+      # {"id":"com.android.tools.r8.synthesized"}
+    boolean canShowBadge() -> canShowBadge
+      # {"id":"com.android.tools.r8.synthesized"}
+    void enableLights(boolean) -> enableLights
+      # {"id":"com.android.tools.r8.synthesized"}
+    void enableVibration(boolean) -> enableVibration
+      # {"id":"com.android.tools.r8.synthesized"}
+    java.lang.String getDescription() -> getDescription
+      # {"id":"com.android.tools.r8.synthesized"}
+    java.lang.String getGroup() -> getGroup
+      # {"id":"com.android.tools.r8.synthesized"}
+    java.lang.String getId() -> getId
+      # {"id":"com.android.tools.r8.synthesized"}
+    int getImportance() -> getImportance
+      # {"id":"com.android.tools.r8.synthesized"}
+    int getLockscreenVisibility() -> getLockscreenVisibility
+      # {"id":"com.android.tools.r8.synthesized"}
+    java.lang.CharSequence getName() -> getName
+      # {"id":"com.android.tools.r8.synthesized"}
+    long[] getVibrationPattern() -> getVibrationPattern
+      # {"id":"com.android.tools.r8.synthesized"}
+    void setBypassDnd(boolean) -> setBypassDnd
+      # {"id":"com.android.tools.r8.synthesized"}
+    void setDescription(java.lang.String) -> setDescription
+      # {"id":"com.android.tools.r8.synthesized"}
+    void setGroup(java.lang.String) -> setGroup
+      # {"id":"com.android.tools.r8.synthesized"}
+    void setLockscreenVisibility(int) -> setLockscreenVisibility
+      # {"id":"com.android.tools.r8.synthesized"}
+    void setShowBadge(boolean) -> setShowBadge
+      # {"id":"com.android.tools.r8.synthesized"}
+    void setVibrationPattern(long[]) -> setVibrationPattern
+      # {"id":"com.android.tools.r8.synthesized"}
+    boolean shouldShowLights() -> shouldShowLights
+      # {"id":"com.android.tools.r8.synthesized"}
+    boolean shouldVibrate() -> shouldVibrate
+      # {"id":"com.android.tools.r8.synthesized"}
+android.app.NotificationChannelGroup -> android.app.NotificationChannelGroup:
+# {"id":"com.android.tools.r8.synthesized"}
+    void <clinit>() -> <clinit>
+      # {"id":"com.android.tools.r8.synthesized"}
+    void <init>(java.lang.String,java.lang.CharSequence) -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+android.graphics.drawable.Icon -> android.graphics.drawable.Icon:
+# {"id":"com.android.tools.r8.synthesized"}
+    void <clinit>() -> <clinit>
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.graphics.drawable.Icon createWithContentUri(java.lang.String) -> createWithContentUri
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.graphics.drawable.Icon createWithResource(android.content.Context,int) -> createWithResource
+      # {"id":"com.android.tools.r8.synthesized"}
+android.media.AudioDeviceInfo -> android.media.AudioDeviceInfo:
+# {"id":"com.android.tools.r8.synthesized"}
+    void <clinit>() -> <clinit>
+      # {"id":"com.android.tools.r8.synthesized"}
+    int getId() -> getId
+      # {"id":"com.android.tools.r8.synthesized"}
+    int[] getSampleRates() -> getSampleRates
+      # {"id":"com.android.tools.r8.synthesized"}
+    int getType() -> getType
+      # {"id":"com.android.tools.r8.synthesized"}
+android.media.AudioRecordingMonitor -> android.media.AudioRecordingMonitor:
+# {"id":"com.android.tools.r8.synthesized"}
+    void <clinit>() -> <clinit>
+      # {"id":"com.android.tools.r8.synthesized"}
+android.media.AudioRouting -> android.media.AudioRouting:
+# {"id":"com.android.tools.r8.synthesized"}
+    void <clinit>() -> <clinit>
+      # {"id":"com.android.tools.r8.synthesized"}
+android.media.MicrophoneDirection -> android.media.MicrophoneDirection:
+# {"id":"com.android.tools.r8.synthesized"}
+    void <clinit>() -> <clinit>
+      # {"id":"com.android.tools.r8.synthesized"}
+android.media.VolumeAutomation -> android.media.VolumeAutomation:
+# {"id":"com.android.tools.r8.synthesized"}
+    void <clinit>() -> <clinit>
+      # {"id":"com.android.tools.r8.synthesized"}
+android.view.PixelCopy -> android.view.PixelCopy:
+# {"id":"com.android.tools.r8.synthesized"}
+    void <clinit>() -> <clinit>
+      # {"id":"com.android.tools.r8.synthesized"}
+    void request(android.view.SurfaceView,android.graphics.Bitmap,android.view.PixelCopy$OnPixelCopyFinishedListener,android.os.Handler) -> request
+      # {"id":"com.android.tools.r8.synthesized"}
+android.view.PixelCopy$OnPixelCopyFinishedListener -> android.view.PixelCopy$OnPixelCopyFinishedListener:
+# {"id":"com.android.tools.r8.synthesized"}
+    void <clinit>() -> <clinit>
+      # {"id":"com.android.tools.r8.synthesized"}
+bitter.jnibridge.JNIBridge$a -> bitter.jnibridge.JNIBridge$a:
+    java.lang.Object -$$Nest$fgeta(bitter.jnibridge.JNIBridge$a) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputb(bitter.jnibridge.JNIBridge$a,long) -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity.androidnotifications.NotificationChannelWrapper -> com.unity.androidnotifications.a:
+    int lockscreenVisibility -> j
+    java.lang.String group -> k
+    boolean enableLights -> e
+    boolean enableVibration -> f
+    java.lang.String id -> a
+    boolean canBypassDnd -> g
+    boolean canShowBadge -> h
+    java.lang.String name -> b
+    int importance -> c
+    long[] vibrationPattern -> i
+    java.lang.String description -> d
+com.unity.androidnotifications.UnityNotificationBackgroundThread -> com.unity.androidnotifications.c:
+    java.util.concurrent.LinkedTransferQueue mTasks -> a
+    com.unity.androidnotifications.UnityNotificationManager mManager -> c
+    java.util.concurrent.ConcurrentHashMap mScheduledNotifications -> b
+    int mTasksSinceHousekeeping -> d
+    void -$$Nest$mperformHousekeeping(com.unity.androidnotifications.UnityNotificationBackgroundThread,java.util.Set) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    void enqueueCancelAllNotifications() -> b
+    void enqueueCancelNotification(int) -> c
+    void enqueueHousekeeping() -> d
+    void enqueueNotification(int,android.app.Notification$Builder,boolean,boolean) -> e
+    boolean executeTask(com.unity.androidnotifications.UnityNotificationManager,com.unity.androidnotifications.UnityNotificationBackgroundThread$Task,java.util.concurrent.ConcurrentHashMap) -> f
+    void loadNotifications() -> g
+    void performHousekeeping(java.util.Set) -> h
+com.unity.androidnotifications.UnityNotificationBackgroundThread$CancelAllNotificationsTask -> com.unity.androidnotifications.c$a:
+    void <init>(com.unity.androidnotifications.UnityNotificationBackgroundThread$CancelAllNotificationsTask-IA) -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    boolean run(com.unity.androidnotifications.UnityNotificationManager,java.util.concurrent.ConcurrentHashMap) -> a
+com.unity.androidnotifications.UnityNotificationBackgroundThread$CancelAllNotificationsTask-IA -> com.unity.androidnotifications.b:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+com.unity.androidnotifications.UnityNotificationBackgroundThread$CancelNotificationTask -> com.unity.androidnotifications.c$b:
+    int notificationId -> a
+    boolean run(com.unity.androidnotifications.UnityNotificationManager,java.util.concurrent.ConcurrentHashMap) -> a
+com.unity.androidnotifications.UnityNotificationBackgroundThread$HousekeepingTask -> com.unity.androidnotifications.c$c:
+    com.unity.androidnotifications.UnityNotificationBackgroundThread thread -> a
+    boolean run(com.unity.androidnotifications.UnityNotificationManager,java.util.concurrent.ConcurrentHashMap) -> a
+com.unity.androidnotifications.UnityNotificationBackgroundThread$ScheduleNotificationTask -> com.unity.androidnotifications.c$d:
+    android.app.Notification$Builder notificationBuilder -> b
+    boolean isCustomized -> c
+    int notificationId -> a
+    boolean isNew -> d
+    boolean run(com.unity.androidnotifications.UnityNotificationManager,java.util.concurrent.ConcurrentHashMap) -> a
+com.unity.androidnotifications.UnityNotificationBackgroundThread$Task -> com.unity.androidnotifications.c$e:
+    void <init>(com.unity.androidnotifications.UnityNotificationBackgroundThread$Task-IA) -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    boolean run(com.unity.androidnotifications.UnityNotificationManager,java.util.concurrent.ConcurrentHashMap) -> a
+com.unity.androidnotifications.UnityNotificationBackgroundThread$Task-IA -> com.unity.androidnotifications.d:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+com.unity.androidnotifications.UnityNotificationManager -> com.unity.androidnotifications.UnityNotificationManager:
+    android.content.Context mContext -> a
+    java.util.concurrent.ConcurrentHashMap mScheduledNotifications -> g
+    com.unity.androidnotifications.UnityNotificationBackgroundThread mBackgroundThread -> d
+    java.util.Random mRandom -> e
+    int mExactSchedulingSetting -> i
+    com.unity.androidnotifications.UnityNotificationManager mUnityNotificationManager -> j
+    java.util.HashSet mVisibleNotifications -> f
+    com.unity.androidnotifications.NotificationCallback mNotificationCallback -> h
+    android.app.Activity mActivity -> b
+    java.lang.Class mOpenActivity -> c
+    void performNotificationScheduling(int,android.app.Notification$Builder,boolean) -> A
+    void saveNotification(android.app.Notification,boolean) -> B
+    void saveScheduledNotificationIDs(java.util.Set) -> C
+    void scheduleAlarmWithNotification(android.app.Notification$Builder) -> D
+    void scheduleAlarmWithNotification(android.app.Notification$Builder,android.content.Intent,long) -> E
+    void scheduleNotificationIntentAlarm(long,long,android.app.PendingIntent) -> F
+    void setupBigPictureStyle(android.app.Notification$Builder) -> G
+    android.app.Notification buildNotificationForSending(java.lang.Class,android.app.Notification$Builder) -> a
+    android.content.Intent buildNotificationIntent() -> b
+    boolean canScheduleExactAlarms(android.app.AlarmManager) -> c
+    void cancelPendingNotificationIntent(int) -> d
+    void deleteExpiredNotificationIntent(java.lang.String) -> e
+    void finalizeNotificationForDisplay(android.app.Notification$Builder) -> f
+    java.util.Set findInvalidNotificationIds(java.util.Set) -> g
+    int generateUniqueId() -> h
+    android.app.PendingIntent getActivityPendingIntent(int,android.content.Intent,int) -> i
+    android.os.Bundle getAppMetadata() -> j
+    android.app.PendingIntent getBroadcastPendingIntent(int,android.content.Intent,int) -> k
+    java.lang.Object getIcon(java.lang.String) -> l
+    java.lang.Object getIconForUri(java.lang.String) -> m
+    java.lang.Object getIconFromResources(java.lang.String,boolean) -> n
+    com.unity.androidnotifications.UnityNotificationManager getNotificationManagerImpl(android.content.Context) -> o
+    java.lang.Object getNotificationOrBuilderForIntent(android.content.Intent) -> p
+    java.util.Set getScheduledNotificationIDs() -> q
+    java.lang.String getSharedPrefsNameByChannelId(java.lang.String) -> r
+    java.lang.String getSharedPrefsNameByNotificationId(java.lang.String) -> s
+    void initialize(android.app.Activity,com.unity.androidnotifications.NotificationCallback) -> t
+    boolean isInForeground() -> u
+    android.graphics.Bitmap loadBitmap(java.lang.String) -> v
+    java.util.List loadSavedNotifications() -> w
+    com.unity.androidnotifications.NotificationChannelWrapper notificationChannelToWrapper(java.lang.Object) -> x
+    void notify(int,android.app.Notification) -> y
+    void performNotificationHousekeeping(java.util.Set) -> z
+com.unity.androidnotifications.UnityNotificationManager$$ExternalSyntheticApiModelOutline0 -> com.unity.androidnotifications.e:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    android.app.Notification$Builder com.unity.androidnotifications.UnityNotificationManager$$InternalSyntheticApiModelOutline$1$269572ecf4d9e2a9174ff608037c9dbcca8da56475a009f5e0c0c19d60f34420$0.m(android.app.Notification$Builder,int) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity.androidnotifications.UnityNotificationManager$$ExternalSyntheticApiModelOutline1 -> com.unity.androidnotifications.p:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    java.util.List com.unity.androidnotifications.UnityNotificationManager$$InternalSyntheticApiModelOutline$1$31d3742d6d41cf19f16301904bd79ed14bafd793aacf8816eb9afc2951271503$0.m(android.app.NotificationManager) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity.androidnotifications.UnityNotificationManager$$ExternalSyntheticApiModelOutline10 -> com.unity.androidnotifications.f:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    int com.unity.androidnotifications.UnityNotificationManager$$InternalSyntheticApiModelOutline$1$c24b55101ff145fcffcba1d742a1cead879399f2649df47eccd1e9aa46a1838f$0.m(android.app.Notification) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity.androidnotifications.UnityNotificationManager$$ExternalSyntheticApiModelOutline11 -> com.unity.androidnotifications.g:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    void com.unity.androidnotifications.UnityNotificationManager$$InternalSyntheticApiModelOutline$1$c67dbb9dc4eb3864e129de5cdbe3f92131839dc7f93e2e0ca479e3d92ec37db3$0.m(android.app.NotificationManager,android.app.NotificationChannel) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity.androidnotifications.UnityNotificationManager$$ExternalSyntheticApiModelOutline12 -> com.unity.androidnotifications.h:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    void com.unity.androidnotifications.UnityNotificationManager$$InternalSyntheticApiModelOutline$1$fae023a89361be21aad988eb9d221f2df6ff1ba6cc60381d06edb33a3a64e950$0.m(android.app.NotificationManager,java.lang.String) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity.androidnotifications.UnityNotificationManager$$ExternalSyntheticApiModelOutline13 -> com.unity.androidnotifications.i:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    boolean com.unity.androidnotifications.UnityNotificationManager$$InternalSyntheticApiModelOutline$2$81f6e8d747dadaeec25a2d4b912f906da9022df60adae4c869d414dfd7c0a25d$0.m(android.app.AlarmManager) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity.androidnotifications.UnityNotificationManager$$ExternalSyntheticApiModelOutline14 -> com.unity.androidnotifications.j:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    android.app.Notification$Builder com.unity.androidnotifications.UnityNotificationManager$$InternalSyntheticApiModelOutline$3$0572bc2293b13c4179ebdc0f8b54525310d20c9aecbf1c4da974e719ce6a5928$0.m(android.app.Notification$Builder,android.graphics.drawable.Icon) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity.androidnotifications.UnityNotificationManager$$ExternalSyntheticApiModelOutline15 -> com.unity.androidnotifications.k:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    android.app.Notification$Builder com.unity.androidnotifications.UnityNotificationManager$$InternalSyntheticApiModelOutline$3$0572bc2293b13c4179ebdc0f8b54525310d20c9aecbf1c4da974e719ce6a5928$1.m(android.app.Notification$Builder,android.graphics.drawable.Icon) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity.androidnotifications.UnityNotificationManager$$ExternalSyntheticApiModelOutline16 -> com.unity.androidnotifications.l:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    void com.unity.androidnotifications.UnityNotificationManager$$InternalSyntheticApiModelOutline$3$07d21b6198628dffb8a63beb3ee526549b5dbfd0c4e03e1f3eb21378f1f504e3$0.m(android.app.AlarmManager,int,long,android.app.PendingIntent) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity.androidnotifications.UnityNotificationManager$$ExternalSyntheticApiModelOutline17 -> com.unity.androidnotifications.m:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    android.app.Notification$BigPictureStyle com.unity.androidnotifications.UnityNotificationManager$$InternalSyntheticApiModelOutline$4$43d3827bddcc8f767c24f3f48ef6b693827238a517c4b952d45daf82fa29cf5b$0.m(android.app.Notification$BigPictureStyle,android.graphics.drawable.Icon) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity.androidnotifications.UnityNotificationManager$$ExternalSyntheticApiModelOutline18 -> com.unity.androidnotifications.n:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    android.app.Notification$BigPictureStyle com.unity.androidnotifications.UnityNotificationManager$$InternalSyntheticApiModelOutline$4$43d3827bddcc8f767c24f3f48ef6b693827238a517c4b952d45daf82fa29cf5b$1.m(android.app.Notification$BigPictureStyle,android.graphics.drawable.Icon) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity.androidnotifications.UnityNotificationManager$$ExternalSyntheticApiModelOutline19 -> com.unity.androidnotifications.o:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    android.app.Notification$BigPictureStyle com.unity.androidnotifications.UnityNotificationManager$$InternalSyntheticApiModelOutline$4$43d3827bddcc8f767c24f3f48ef6b693827238a517c4b952d45daf82fa29cf5b$3.m(android.app.Notification$BigPictureStyle,java.lang.CharSequence) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity.androidnotifications.UnityNotificationManager$$ExternalSyntheticApiModelOutline2 -> com.unity.androidnotifications.r:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    java.lang.String com.unity.androidnotifications.UnityNotificationManager$$InternalSyntheticApiModelOutline$1$55be738b39ee3de3a69c6c7861361ef1330cfec43458ba685b70b13065e4b869$0.m(android.app.Notification) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity.androidnotifications.UnityNotificationManager$$ExternalSyntheticApiModelOutline20 -> com.unity.androidnotifications.q:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    android.app.Notification$BigPictureStyle com.unity.androidnotifications.UnityNotificationManager$$InternalSyntheticApiModelOutline$4$43d3827bddcc8f767c24f3f48ef6b693827238a517c4b952d45daf82fa29cf5b$4.m(android.app.Notification$BigPictureStyle,boolean) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity.androidnotifications.UnityNotificationManager$$ExternalSyntheticApiModelOutline3 -> com.unity.androidnotifications.s:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    android.app.NotificationChannel com.unity.androidnotifications.UnityNotificationManager$$InternalSyntheticApiModelOutline$1$56774ef610b67ad994248ed1106f8dce999b28db0312615c04c69bf2eb934fdc$0.m(android.app.NotificationManager,java.lang.String) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity.androidnotifications.UnityNotificationManager$$ExternalSyntheticApiModelOutline4 -> com.unity.androidnotifications.t:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    void com.unity.androidnotifications.UnityNotificationManager$$InternalSyntheticApiModelOutline$1$56dbfbddff8e48407e7ef4bb8359314395ed4d86995d5012c1e8f7b8f48c4357$0.m(android.app.NotificationChannelGroup,java.lang.String) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity.androidnotifications.UnityNotificationManager$$ExternalSyntheticApiModelOutline5 -> com.unity.androidnotifications.u:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    void com.unity.androidnotifications.UnityNotificationManager$$InternalSyntheticApiModelOutline$1$56dbfbddff8e48407e7ef4bb8359314395ed4d86995d5012c1e8f7b8f48c4357$1.m(android.app.NotificationManager,android.app.NotificationChannelGroup) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity.androidnotifications.UnityNotificationManager$$ExternalSyntheticApiModelOutline6 -> com.unity.androidnotifications.v:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    void com.unity.androidnotifications.UnityNotificationManager$$InternalSyntheticApiModelOutline$1$724e828dfe8e9179900d80206e2abce861f23f81fd946678a3acd70e87699e48$0.m(android.app.NotificationManager,java.lang.String) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity.androidnotifications.UnityNotificationManager$$ExternalSyntheticApiModelOutline7 -> com.unity.androidnotifications.w:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    boolean com.unity.androidnotifications.UnityNotificationManager$$InternalSyntheticApiModelOutline$1$808b73375c89d7b4da1f2f803fe2f8832b5b0c4138e0e0496bf599bc0af48b69$0.m(android.app.NotificationManager) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity.androidnotifications.UnityNotificationManager$$ExternalSyntheticApiModelOutline8 -> com.unity.androidnotifications.x:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    android.app.Notification$Builder com.unity.androidnotifications.UnityNotificationManager$$InternalSyntheticApiModelOutline$1$8ca8cf3233056d0d944f18d46c5a99fbd82dfe73143b9b775cc4b2ea8a859006$0.m(android.app.Notification$Builder,boolean) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity.androidnotifications.UnityNotificationManager$$ExternalSyntheticApiModelOutline9 -> com.unity.androidnotifications.y:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    android.service.notification.StatusBarNotification[] com.unity.androidnotifications.UnityNotificationManager$$InternalSyntheticApiModelOutline$1$991373e571a2cc52f75110ec691d7dcc09d5e1f4db3ff7459f63341aec2eaa9a$0.m(android.app.NotificationManager) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver -> com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver:
+    void rescheduleSavedNotifications(android.content.Context) -> a
+com.unity.androidnotifications.UnityNotificationUtilities -> com.unity.androidnotifications.a0:
+    byte[] UNITY_MAGIC_NUMBER_PARCELLED -> b
+    byte[] UNITY_MAGIC_NUMBER -> a
+    java.lang.Object deserializeNotification(android.content.Context,android.content.SharedPreferences) -> a
+    java.lang.Object deserializeNotification(android.content.Context,byte[]) -> b
+    android.app.Notification$Builder deserializeNotificationCustom(android.content.Context,java.io.DataInputStream) -> c
+    android.app.Notification deserializeNotificationParcelable(java.io.DataInputStream) -> d
+    android.os.Parcelable deserializeParcelable(java.io.DataInputStream) -> e
+    java.lang.String deserializeString(java.io.DataInputStream) -> f
+    android.app.Notification$Builder deserializedFromOldIntent(android.content.Context,byte[]) -> g
+    int findResourceIdInContextByName(android.content.Context,java.lang.String) -> h
+    java.lang.Class getOpenAppActivity(android.content.Context) -> i
+    boolean isUnityActivity(java.lang.String) -> j
+    boolean readAndCheckMagicNumber(java.io.DataInputStream,byte[]) -> k
+    android.app.Notification$Builder recoverBuilder(android.content.Context,android.app.Notification) -> l
+    android.app.Notification$Builder recoverBuilderCustom(android.content.Context,android.app.Notification) -> m
+    void serializeNotification(android.content.SharedPreferences,android.app.Notification,boolean) -> n
+    boolean serializeNotificationCustom(android.app.Notification,java.io.DataOutputStream) -> o
+    boolean serializeNotificationParcel(android.content.Intent,java.io.DataOutputStream) -> p
+    byte[] serializeParcelable(android.os.Parcelable) -> q
+    void serializeString(java.io.DataOutputStream,java.lang.String) -> r
+com.unity.androidnotifications.UnityNotificationUtilities$$ExternalSyntheticApiModelOutline0 -> com.unity.androidnotifications.z:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    android.app.Notification$Builder com.unity.androidnotifications.UnityNotificationUtilities$$InternalSyntheticApiModelOutline$2$37c96042a7b452cc0c68ab599962078b940a5ca10745e5c60884dd0f47acb0af$0.m(android.content.Context,android.app.Notification) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.C -> com.unity3d.player.C:
+    int -$$Nest$sfgeta() -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    int -$$Nest$sfgetb() -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    int -$$Nest$sfgetc() -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.D -> com.unity3d.player.D:
+    android.content.Context -$$Nest$fgeta(com.unity3d.player.D) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    com.unity3d.player.UnityPlayerForActivityOrService -$$Nest$fgetb(com.unity3d.player.D) -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    java.lang.String -$$Nest$ma(com.unity3d.player.D) -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$ma(com.unity3d.player.D,java.lang.String,boolean) -> d
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.HFPStatus -> com.unity3d.player.HFPStatus:
+    boolean -$$Nest$fgetc(com.unity3d.player.HFPStatus) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.media.AudioManager -$$Nest$fgetd(com.unity3d.player.HFPStatus) -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    boolean -$$Nest$fgete(com.unity3d.player.HFPStatus) -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fpute(com.unity3d.player.HFPStatus,boolean) -> d
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputf(com.unity3d.player.HFPStatus,com.unity3d.player.HFPStatus$a) -> e
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.K -> com.unity3d.player.K:
+    com.unity3d.player.a -$$Nest$fgeta(com.unity3d.player.K) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    com.unity3d.player.UnityPlayerForActivityOrService -$$Nest$fgetb(com.unity3d.player.K) -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    com.unity3d.player.x -$$Nest$fgetc(com.unity3d.player.K) -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.MultiWindowSupport$$ExternalSyntheticApiModelOutline0 -> com.unity3d.player.c0:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    boolean com.unity3d.player.MultiWindowSupport$$InternalSyntheticApiModelOutline$1$9a81a94f341d90d3e5b43c52ebb178f91bb2a5fab6ce82488de68f35b94c27cb$0.m(android.app.Activity) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.NetworkConnectivity$$ExternalSyntheticApiModelOutline0 -> com.unity3d.player.d0:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    android.net.Network com.unity3d.player.NetworkConnectivity$$InternalSyntheticApiModelOutline$1$69759bee7616938ead24a3a6c921baee6b9920acc8f136203994fc38b83ac9c8$0.m(android.net.ConnectivityManager) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.NetworkConnectivityNougat -> com.unity3d.player.NetworkConnectivityNougat:
+    void -$$Nest$fputb(com.unity3d.player.NetworkConnectivityNougat,int) -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.NetworkConnectivityNougat$$ExternalSyntheticApiModelOutline0 -> com.unity3d.player.e0:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    void com.unity3d.player.NetworkConnectivityNougat$$InternalSyntheticApiModelOutline$1$d3a51847691a88f8f5467f6480bdef76152f07279801f631abf6388052ea4b73$0.m(android.net.ConnectivityManager,android.net.ConnectivityManager$NetworkCallback) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.O -> com.unity3d.player.O:
+    com.unity3d.player.UnityPlayerForActivityOrService -$$Nest$fgeta(com.unity3d.player.O) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.os.Handler -$$Nest$fgetb(com.unity3d.player.O) -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    boolean -$$Nest$fgetc(com.unity3d.player.O) -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    boolean -$$Nest$fgetd(com.unity3d.player.O) -> d
+      # {"id":"com.android.tools.r8.synthesized"}
+    com.unity3d.player.M -$$Nest$fgete(com.unity3d.player.O) -> e
+      # {"id":"com.android.tools.r8.synthesized"}
+    int -$$Nest$fgetf(com.unity3d.player.O) -> f
+      # {"id":"com.android.tools.r8.synthesized"}
+    int -$$Nest$fgetg(com.unity3d.player.O) -> g
+      # {"id":"com.android.tools.r8.synthesized"}
+    int -$$Nest$fgeth(com.unity3d.player.O) -> h
+      # {"id":"com.android.tools.r8.synthesized"}
+    int -$$Nest$fgeti(com.unity3d.player.O) -> i
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputc(com.unity3d.player.O,boolean) -> j
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputd(com.unity3d.player.O,boolean) -> k
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fpute(com.unity3d.player.O,com.unity3d.player.M) -> l
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputf(com.unity3d.player.O,int) -> m
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputi(com.unity3d.player.O,int) -> n
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.ReflectionHelper -> com.unity3d.player.ReflectionHelper:
+    long -$$Nest$sfgetb() -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$smnativeProxyFinalize(long) -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    java.lang.Object -$$Nest$smnativeProxyInvoke(long,java.lang.String,java.lang.Object[]) -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$smnativeProxyLogJNIInvokeException(long) -> d
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.ReflectionHelper$a -> com.unity3d.player.ReflectionHelper$a:
+    void -$$Nest$fputd(com.unity3d.player.ReflectionHelper$a,long) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fpute(com.unity3d.player.ReflectionHelper$a,boolean) -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.ReflectionHelper$b -> com.unity3d.player.ReflectionHelper$b:
+    int -$$Nest$fgetd(com.unity3d.player.ReflectionHelper$b) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.T -> com.unity3d.player.T:
+    void -$$Nest$fputb(com.unity3d.player.T,boolean) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.UnityGameManager$$ExternalSyntheticApiModelOutline0 -> com.unity3d.player.f0:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    java.lang.Object com.unity3d.player.UnityGameManager$$InternalSyntheticApiModelOutline$1$54d38a72da864e2044dc4da011abc4b4cdb8f46a83ff91623912217feea955b4$0.m(android.content.Context,java.lang.Class) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.UnityPermissions$$ExternalSyntheticApiModelOutline0 -> com.unity3d.player.g0:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    void com.unity3d.player.UnityPermissions$$InternalSyntheticApiModelOutline$1$0c44c57a4ba6cf0a457515a2caf1269902cdfb1b8b6a313c3f751424490818c7$0.m(android.app.Activity,java.lang.String[],int) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.UnityPermissions$$ExternalSyntheticApiModelOutline1 -> com.unity3d.player.h0:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    boolean com.unity3d.player.UnityPermissions$$InternalSyntheticApiModelOutline$1$27f1855309699cd80195a79c999002eff8ead5dbb7303642699b36707f348640$0.m(android.app.Activity,java.lang.String) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.UnityPlayer -> com.unity3d.player.UnityPlayer:
+    int -$$Nest$fgetmInitialScreenOrientation(com.unity3d.player.UnityPlayer) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    com.unity3d.player.E -$$Nest$fgetm_SplashScreen(com.unity3d.player.UnityPlayer) -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputmVideoPlayerProxy(com.unity3d.player.UnityPlayer,com.unity3d.player.b0) -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputm_SplashScreen(com.unity3d.player.UnityPlayer,com.unity3d.player.E) -> d
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$minvokeOnMainThread(com.unity3d.player.UnityPlayer,com.unity3d.player.UnityPlayer$l) -> e
+      # {"id":"com.android.tools.r8.synthesized"}
+    boolean -$$Nest$mnativeIsAutorotationOn(com.unity3d.player.UnityPlayer) -> f
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeMuteMasterAudio(com.unity3d.player.UnityPlayer,boolean) -> g
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$smnativeSetLaunchURL(java.lang.String) -> h
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.UnityPlayer$j -> com.unity3d.player.UnityPlayer$j:
+    long -$$Nest$fgeta(com.unity3d.player.UnityPlayer$j) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.UnityPlayer$k -> com.unity3d.player.UnityPlayer$k:
+    void <init>(com.unity3d.player.UnityPlayer,com.unity3d.player.UnityPlayer$k-IA) -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.UnityPlayer$k-IA -> com.unity3d.player.i0:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.UnityPlayerForActivityOrService -> com.unity3d.player.UnityPlayerForActivityOrService:
+    boolean -$$Nest$fgetmMainDisplayOverride(com.unity3d.player.UnityPlayerForActivityOrService) -> i
+      # {"id":"com.android.tools.r8.synthesized"}
+    com.unity3d.player.D -$$Nest$fgetmSoftInputDialog(com.unity3d.player.UnityPlayerForActivityOrService) -> j
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputmSoftInputDialog(com.unity3d.player.UnityPlayerForActivityOrService,com.unity3d.player.D) -> k
+      # {"id":"com.android.tools.r8.synthesized"}
+    boolean -$$Nest$mnativePause(com.unity3d.player.UnityPlayerForActivityOrService) -> l
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeRecreateGfxState(com.unity3d.player.UnityPlayerForActivityOrService,int,android.view.Surface) -> m
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeReportKeyboardConfigChanged(com.unity3d.player.UnityPlayerForActivityOrService) -> n
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeResume(com.unity3d.player.UnityPlayerForActivityOrService) -> o
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeSendSurfaceChangedEvent(com.unity3d.player.UnityPlayerForActivityOrService) -> p
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeSetInputArea(com.unity3d.player.UnityPlayerForActivityOrService,int,int,int,int) -> q
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeSetInputSelection(com.unity3d.player.UnityPlayerForActivityOrService,int,int) -> r
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeSetInputString(com.unity3d.player.UnityPlayerForActivityOrService,java.lang.String) -> s
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeSetKeyboardIsVisible(com.unity3d.player.UnityPlayerForActivityOrService,boolean) -> t
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeSoftInputCanceled(com.unity3d.player.UnityPlayerForActivityOrService) -> u
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeSoftInputClosed(com.unity3d.player.UnityPlayerForActivityOrService) -> v
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeSoftInputLostFocus(com.unity3d.player.UnityPlayerForActivityOrService) -> w
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.UnityPlayerForGameActivity -> com.unity3d.player.UnityPlayerForGameActivity:
+    void -$$Nest$mnativeOrientationChanged(com.unity3d.player.UnityPlayerForGameActivity,int,int) -> i
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.a.a -> a.a:
+com.unity3d.player.b0 -> com.unity3d.player.b0:
+    com.unity3d.player.UnityPlayer -$$Nest$fgeta(com.unity3d.player.b0) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.content.Context -$$Nest$fgetb(com.unity3d.player.b0) -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    java.util.concurrent.Semaphore -$$Nest$fgetd(com.unity3d.player.b0) -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    java.util.concurrent.locks.Lock -$$Nest$fgete(com.unity3d.player.b0) -> d
+      # {"id":"com.android.tools.r8.synthesized"}
+    com.unity3d.player.U -$$Nest$fgetf(com.unity3d.player.b0) -> e
+      # {"id":"com.android.tools.r8.synthesized"}
+    boolean -$$Nest$fgeti(com.unity3d.player.b0) -> f
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputf(com.unity3d.player.b0,com.unity3d.player.U) -> g
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputg(com.unity3d.player.b0,int) -> h
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputi(com.unity3d.player.b0,boolean) -> i
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$ma(com.unity3d.player.b0) -> j
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.c -> com.unity3d.player.c:
+    java.util.HashSet -$$Nest$fgeta(com.unity3d.player.c) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.i -> com.unity3d.player.i:
+    com.google.android.play.core.assetpacks.AssetPackManager -$$Nest$fgetb(com.unity3d.player.i) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    java.util.HashSet -$$Nest$fgetc(com.unity3d.player.i) -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    java.lang.Object -$$Nest$fgetd(com.unity3d.player.i) -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputd(com.unity3d.player.i,java.lang.Object) -> d
+      # {"id":"com.android.tools.r8.synthesized"}
+    com.unity3d.player.i -$$Nest$sfgete() -> e
+      # {"id":"com.android.tools.r8.synthesized"}
+    int -$$Nest$sma(java.lang.Throwable) -> f
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.s -> com.unity3d.player.s:
+    com.unity3d.player.a.a -$$Nest$fgeta(com.unity3d.player.s) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.hardware.camera2.CameraDevice -$$Nest$fgetb(com.unity3d.player.s) -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.util.Range -$$Nest$fgetn(com.unity3d.player.s) -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.media.Image -$$Nest$fgetp(com.unity3d.player.s) -> d
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.hardware.camera2.CaptureRequest$Builder -$$Nest$fgetq(com.unity3d.player.s) -> e
+      # {"id":"com.android.tools.r8.synthesized"}
+    java.lang.Object -$$Nest$fgets(com.unity3d.player.s) -> f
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.view.Surface -$$Nest$fgetv(com.unity3d.player.s) -> g
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputb(com.unity3d.player.s,android.hardware.camera2.CameraDevice) -> h
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputp(com.unity3d.player.s,android.media.Image) -> i
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputq(com.unity3d.player.s,android.hardware.camera2.CaptureRequest$Builder) -> j
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputr(com.unity3d.player.s,android.hardware.camera2.CameraCaptureSession) -> k
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$ma(com.unity3d.player.s,android.hardware.camera2.CameraDevice) -> l
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$ma(com.unity3d.player.s,java.lang.Object) -> m
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mf(com.unity3d.player.s) -> n
+      # {"id":"com.android.tools.r8.synthesized"}
+    java.util.concurrent.Semaphore -$$Nest$sfgetD() -> o
+      # {"id":"com.android.tools.r8.synthesized"}
+org.fmod.FmodAndroidAudioManager$$ExternalSyntheticApiModelOutline0 -> org.fmod.b:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    android.media.AudioDeviceInfo[] org.fmod.FmodAndroidAudioManager$$InternalSyntheticApiModelOutline$1$2451ab8be76684fb352c796d1dde0943e3fd850d28363e8957ef6ff144bcd993$0.m(android.media.AudioManager,int) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
